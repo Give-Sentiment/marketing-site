@@ -102,7 +102,7 @@ export default function BuyersPage() {
         <FormzEmbed
           formId="4db37644-ad4d-4171-881e-55bb89f2ecd4"
           title="Join the buyers waitlist"
-          className="mx-auto mt-8 max-w-lg"
+          className="mx-auto mt-8 max-w-3xl"
         />
       </Section>
     </>
