@@ -6,7 +6,7 @@ Effective date: June 26, 2026
 
 Welcome to GiveSentiment, Inc. Please read on to learn the rules and restrictions that govern your use of our website(s), products, services and applications (the "Services"). If you have any questions, comments, or concerns regarding these terms or the Services, please contact us at info@givesentiment.com.
 
-These Terms of Use (the "Terms") are a binding contract between you and GiveSentiment, Inc. ("GiveSentiment," "we" and "us"). You must agree to and accept all of the Terms, or you don't have the right to use the Services. Your using the Services in any way means that you agree to all of these Terms, and these Terms will remain in effect while you use the Services. These Terms include the provisions in this document, as well as those in the [Privacy Policy](/privacy), Copyright Dispute Policy, and Rewards Policy [insert links].
+These Terms of Use (the "Terms") are a binding contract between you and GiveSentiment, Inc. ("GiveSentiment," "we" and "us"). You must agree to and accept all of the Terms, or you don't have the right to use the Services. Your using the Services in any way means that you agree to all of these Terms, and these Terms will remain in effect while you use the Services. These Terms include the provisions in this document, as well as those in the [Privacy Policy](/privacy), [Copyright Dispute Policy](/copyright-dispute-policy), and [Rewards Policy](/rewards-policy).
 
 Will these Terms ever change?
 
@@ -105,7 +105,7 @@ Finally, you understand and agree that GiveSentiment, in performing the required
 
 What if I see something on the Services that infringes my copyright?
 
-You may have heard of the Digital Millennium Copyright Act (the "DMCA"), as it relates to online service providers, like GiveSentiment, being asked to remove material that allegedly violates someone's copyright. We respect others' intellectual property rights, and we reserve the right to delete or disable Content alleged to be infringing, and to terminate the accounts of repeat alleged infringers; to review our complete Copyright Dispute Policy and learn how to report potentially infringing content, click here [link to Copyright Dispute Policy]. To learn more about the DMCA, click here: http://www.copyrightgovlegislation/dmcapd.
+You may have heard of the Digital Millennium Copyright Act (the "DMCA"), as it relates to online service providers, like GiveSentiment, being asked to remove material that allegedly violates someone's copyright. We respect others' intellectual property rights, and we reserve the right to delete or disable Content alleged to be infringing, and to terminate the accounts of repeat alleged infringers; to review our complete [Copyright Dispute Policy](/copyright-dispute-policy) and learn how to report potentially infringing content. To learn more about the DMCA, click here: http://www.copyrightgovlegislation/dmcapd.
 
 Who is responsible for what I see and do on the Services?
 

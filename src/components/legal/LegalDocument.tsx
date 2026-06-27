@@ -6,11 +6,19 @@ type LegalDocumentProps = {
   content: string;
 };
 
-// Section headers in these documents are short standalone lines ending in
-// "?" (e.g. "Will these Terms ever change?") — used to tell headings apart
-// from body paragraphs without re-authoring the source text by hand.
+// Section headers in these documents are either short standalone lines
+// ending in "?" (e.g. "Will these Terms ever change?") or explicitly marked
+// with a leading "## " (for documents whose headers don't read as
+// questions) — used to tell headings apart from body paragraphs without
+// re-authoring the source text by hand.
 function isHeading(block: string) {
-  return !block.includes("\n") && block.length < 120 && block.trim().endsWith("?");
+  if (block.includes("\n")) return false;
+  if (block.startsWith("## ")) return true;
+  return block.length < 120 && block.trim().endsWith("?");
+}
+
+function headingText(block: string) {
+  return block.startsWith("## ") ? block.slice(3) : block;
 }
 
 // Supports minimal inline `[label](/href)` markdown links within a paragraph,
@@ -59,7 +67,7 @@ export function LegalDocument({ heading, content }: LegalDocumentProps) {
         {blocks.map((block, index) =>
           isHeading(block) ? (
             <h2 key={index} className="pt-6 text-xl font-semibold text-foreground">
-              {block}
+              {headingText(block)}
             </h2>
           ) : (
             <p key={index} className="whitespace-pre-line leading-relaxed">
