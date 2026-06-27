@@ -5,24 +5,27 @@ import { NavBar } from "@/components/layout/NavBar";
 import { Footer } from "@/components/layout/Footer";
 import { OrganizationJsonLd } from "@/components/json-ld/OrganizationJsonLd";
 import { WebSiteJsonLd } from "@/components/json-ld/WebSiteJsonLd";
-import { SITE_NAME, SITE_URL, SITE_DESCRIPTION } from "@/lib/site";
+import { SITE_NAME, SITE_TITLE, SITE_URL, SITE_DESCRIPTION } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — Verified survey data, powered by Reality`,
+    default: SITE_TITLE,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
+  icons: {
+    icon: "/images/sentiment-favicon.png",
+  },
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
-    title: SITE_NAME,
+    title: SITE_TITLE,
     description: SITE_DESCRIPTION,
   },
   twitter: {
     card: "summary_large_image",
-    title: SITE_NAME,
+    title: SITE_TITLE,
     description: SITE_DESCRIPTION,
   },
   robots: {

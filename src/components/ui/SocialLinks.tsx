@@ -24,7 +24,7 @@ function LinkedInIcon(props: SVGProps<SVGSVGElement>) {
 
 const socialLinks: SocialLink[] = [
   { name: "X", href: "https://x.com/givesentiment", Icon: XIcon },
-  { name: "LinkedIn", href: "https://www.linkedin.com/company/givesentiment/", Icon: LinkedInIcon },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/joinsentiment/", Icon: LinkedInIcon },
 ];
 
 export function SocialLinks({ className = "" }: { className?: string }) {
