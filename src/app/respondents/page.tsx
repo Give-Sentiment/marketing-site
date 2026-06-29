@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
 import { Heading } from "@/components/ui/Heading";
 import { Badge } from "@/components/ui/Badge";
@@ -6,12 +5,14 @@ import { Card } from "@/components/ui/Card";
 import { StatCounter } from "@/components/ui/StatCounter";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Cta } from "@/components/sections/Cta";
+import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "For Respondents",
   description:
     "Earn token rewards for verified survey participation on Sentiment, secured by the Reality protocol.",
-};
+  path: "/respondents",
+});
 
 const milestones = [
   { value: "10", label: "responses to unlock your first milestone reward" },

@@ -7,7 +7,7 @@ export function OrganizationJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     description: SITE_DESCRIPTION,
-    sameAs: [],
+    sameAs: ["https://www.linkedin.com/company/joinsentiment/", "https://x.com/givesentiment"],
   };
 
   return (

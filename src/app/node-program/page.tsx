@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
 import { Heading } from "@/components/ui/Heading";
 import { Badge } from "@/components/ui/Badge";
@@ -8,12 +7,14 @@ import { StatCounter } from "@/components/ui/StatCounter";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Cta } from "@/components/sections/Cta";
 import { FormzEmbed } from "@/components/integrations/FormzEmbed";
+import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Founding Node Operator Program",
   description:
     "Apply to run one of the first validator nodes on the Reality protocol — a limited, technical cohort during Sentiment's initial network validation phase.",
-};
+  path: "/node-program",
+});
 
 const programStats = [
   { value: "20–30", label: "founding operator spots in this initial cohort" },

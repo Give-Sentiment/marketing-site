@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { Section } from "@/components/ui/Section";
 import { Heading } from "@/components/ui/Heading";
+import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "About",
   description: "Sentiment is building a decentralized, verifiable survey network.",
-};
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

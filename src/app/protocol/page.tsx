@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
 import { Heading } from "@/components/ui/Heading";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { Cta } from "@/components/sections/Cta";
+import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "The Reality Protocol",
   description:
     "Reality is the blockchain protocol powering Sentiment's verification, consensus, and proof layer.",
-};
+  path: "/protocol",
+});
 
 const layers = [
   {

@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
 import { Heading } from "@/components/ui/Heading";
 import { Badge } from "@/components/ui/Badge";
@@ -6,12 +5,14 @@ import { Card } from "@/components/ui/Card";
 import { StatCounter } from "@/components/ui/StatCounter";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { FormzEmbed } from "@/components/integrations/FormzEmbed";
+import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "For Buyers",
   description:
     "A verified, privacy-preserving survey data marketplace — every record proven on-chain via the Reality protocol.",
-};
+  path: "/buyers",
+});
 
 const buyerSteps = [
   {

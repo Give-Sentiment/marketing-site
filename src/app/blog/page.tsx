@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
 import { Heading } from "@/components/ui/Heading";
+import { pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Blog",
   description: "Updates and writing from the Sentiment team.",
-};
+  path: "/blog",
+});
 
 export default function BlogIndexPage() {
   return (
